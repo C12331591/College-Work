@@ -1,0 +1,14 @@
+C:\Users\Bryan\Documents\Courses\OOP\XNASimpleTank\XNASimpleTank\XNASimpleTank\obj\x86\Debug\XNASimpleTank.csprojResolveAssemblyReference.cache
+C:\Users\Bryan\Documents\Courses\OOP\XNASimpleTank\XNASimpleTank\XNASimpleTank\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Bryan\Documents\Courses\OOP\XNASimpleTank\XNASimpleTank\XNASimpleTank\bin\x86\Debug\Content\smalltank.xnb
+C:\Users\Bryan\Documents\Courses\OOP\XNASimpleTank\XNASimpleTank\XNASimpleTank\bin\x86\Debug\XNASimpleTank.exe
+C:\Users\Bryan\Documents\Courses\OOP\XNASimpleTank\XNASimpleTank\XNASimpleTank\bin\x86\Debug\XNASimpleTank.pdb
+C:\Users\Bryan\Documents\Courses\OOP\XNASimpleTank\XNASimpleTank\XNASimpleTank\obj\x86\Debug\XNASimpleTank.exe
+C:\Users\Bryan\Documents\Courses\OOP\XNASimpleTank\XNASimpleTank\XNASimpleTank\obj\x86\Debug\XNASimpleTank.pdb
+U:\OOP\lab9\XNASimpleTank\XNASimpleTank\XNASimpleTank\bin\x86\Debug\Content\smalltank.xnb
+U:\OOP\lab9\XNASimpleTank\XNASimpleTank\XNASimpleTank\bin\x86\Debug\XNASimpleTank.exe
+U:\OOP\lab9\XNASimpleTank\XNASimpleTank\XNASimpleTank\bin\x86\Debug\XNASimpleTank.pdb
+U:\OOP\lab9\XNASimpleTank\XNASimpleTank\XNASimpleTank\obj\x86\Debug\ResolveAssemblyReference.cache
+U:\OOP\lab9\XNASimpleTank\XNASimpleTank\XNASimpleTank\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+U:\OOP\lab9\XNASimpleTank\XNASimpleTank\XNASimpleTank\obj\x86\Debug\XNASimpleTank.exe
+U:\OOP\lab9\XNASimpleTank\XNASimpleTank\XNASimpleTank\obj\x86\Debug\XNASimpleTank.pdb

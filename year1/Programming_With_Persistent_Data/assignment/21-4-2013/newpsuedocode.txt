@@ -1,0 +1,167 @@
+PROGRAM assignment
+
+main
+	IF create()=1
+		PRINT employees.dat was created
+	ELSE
+		PRINT employees.dat was found
+	
+	WHILE exit=0
+		decision=0
+		
+		PRINT	Please select an operation from 1 to 5:
+				1. Add Employee
+				2. Delete Employee
+				3. List Employees
+				4. Compact Records
+				5. Exit
+		READ decision
+		
+		IF decision=1
+			add()
+		ELSE IF decision=2
+			delete()
+		ELSE IF decision=3
+			list()
+		ELSE IF decision=4
+			compact()
+		ELSE IF decision=5
+			exit=1
+		ELSE
+			PRINT Invalid Input
+		ENDIF
+	ENDWHILE
+END main
+
+add()
+	PRINT Enter employee number
+	READ employeenumber
+	
+	WHILE end of file is not reached
+		read next record
+		
+		IF addition.employeenumber=current.employeenumber
+			found=1
+		ENDIF
+	ENDWHILE
+	
+	IF found=1
+		PRINT This number already exists. Overwrite the record?
+			
+		WHILE overwrite=0
+			READ answer
+			
+			IF answer=y
+				overwrite=1
+			ELSE IF answer=0
+				return
+			ELSE
+				PRINT invalid input
+		ENDWHILE
+	ENDIF
+	
+	PRINT Enter first name
+	READ addition.firstname
+	PRINT Enter surname
+	READ addition.surname
+	PRINT Enter address
+	READ addition.address
+	PRINT Enter department code
+	READ addition.departmentcode
+	PRINT Enter duration
+	READ addition.duration
+	
+	write to file
+	
+	update(1, 0)
+END add
+
+del()
+	PRINT Enter employee number
+	READ employeenumber
+	
+	WHILE found=0
+		IF end of file is not reached
+			read next record
+			
+			IF addition.employeenumber=current.employeenumber
+				found=1
+			ENDIF
+		ELSE
+			found=2
+		ENDIF
+	ENDWHILE
+	
+	IF found<>1
+		PRINT Number does not exist in file
+	ELSE
+		employeenumber[0]='*'
+		write to file
+		update(0, 1)
+		PRINT Record was marked for deletion
+	ENDIF
+END del
+
+list()
+	WHILE end of file is not reached
+		read next record
+		IF current.employeenumber[0]!='*'
+			PRINT current.employeenumber
+			PRINT current.firstname
+			PRINT current.surname
+			PRINT current.address
+			PRINT current.departmentcode
+			PRINT current.duration
+		ENDIF
+	ENDWHILE
+	
+	rewind file pointer
+	
+	IF header.totalrecords=0
+		PRINT No records were found in the file
+	ELSE
+		PRINT Active employees:
+		PRINT activeemployees
+		PRINT Total records:
+		PRINT totalrecords
+		PRINT Records marked for deletion:
+		PRINT deletedrecords
+	ENDIF
+END list
+
+
+compact()
+	read first record
+	htransfer.totalrecords=htransfer.totalrecords-htransfer.deletedrecords
+	htransfer.deletedrecs=0
+	
+	WHILE end of file is not reached
+		read next record
+		IF rtransfer.employeenumber[0]<>'*'
+			write to file
+		ENDIF
+	ENDWHILE
+	
+	PRINT The compacted file was created
+END compact
+
+
+create()
+	IF checkpointer=null
+		addheader.totalrecords=0
+		addheader.deletedrecords=0
+		write to file
+END create
+
+
+update(added, marked)
+	IF added=1
+		access.totalrecords=access.totalrecords+1
+	ENDIF
+	
+	IF marked=1
+		access.deletedrecords=access.deletedrecords+1
+	ENDIF
+	
+	write to file
+END update

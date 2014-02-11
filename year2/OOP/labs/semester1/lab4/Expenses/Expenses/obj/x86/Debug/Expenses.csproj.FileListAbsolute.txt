@@ -1,0 +1,5 @@
+U:\OOP\lab4\Expenses\Expenses\obj\x86\Debug\ResolveAssemblyReference.cache
+U:\OOP\lab4\Expenses\Expenses\bin\Debug\Expenses.exe
+U:\OOP\lab4\Expenses\Expenses\bin\Debug\Expenses.pdb
+U:\OOP\lab4\Expenses\Expenses\obj\x86\Debug\Expenses.exe
+U:\OOP\lab4\Expenses\Expenses\obj\x86\Debug\Expenses.pdb

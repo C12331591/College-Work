@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Template for assignment website pages</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<style type="text/css">
+	</style>
+</head>
+
+<body>
+	<h1>
+		<img src="cuptight.png" style="width:8%;"><br/>
+		Coffee Café
+	</h1>
+	
+	<table id="navigation">
+	<tbody>
+	<tr>
+		<td><a href="home.html" id="top">Home</a></td>
+		<td><a href="menu.html" id="top">Our Menu</a></td>
+		<td><a href="bookings.html" id="top">Bookings</a></td>
+		<td><a href="contact.html" id="top">Contact Us</a></td>
+	</tr>
+	</table>
+	
+	<div style="left:10%">
+		<div id="side">
+				<small>Announcements:<br/>
+				Placeholder
+				</small>
+		</div>
+		
+		<div id="content">
+			<p>
+				<h2>Bookings</h2>
+				Our conference room is available to book year round. It can seat up to 100 people and we can optionally provide a catering service of our high-quality coffee. In order to inquire for a booking, please fill in and submit the form below. We will send an e-mail response indicating whether the room is currently available on the specified day and what the cost should amount to.<br/><br/>
+			</p>
+			
+			<p>
+				<form name="bookingform" action="mailto:placeholder">
+				<table id="form">
+				<tbody>
+					<tr>
+					<td>Date to book</td>
+					<td><input type="text" name="date"></td>
+					</tr>
+					
+					<tr>
+					<td>Timeframe</td>
+					<td>From <input type="text" name="from" style="width:10%;">  To <input type="text" name="to" style="width:10%;">
+					</tr>
+					
+					<tr>
+					<td>Number of people</td>
+					<td>Around 25 or less<input type="radio" name="people" value="low">  Around 50<input type="radio" name="people" value="mid">  Around 100<input type="radio" name="people" value="high">
+					</tr>
+					
+					<tr>
+					<td>Do you wish for coffee to be served?</td>
+					<td>Yes<input type="radio" name="coffee" value="y">  No<input type="radio" name="coffee" value="n"></td>
+					</tr>
+					
+					<tr>
+					<td>Your contact e-mail:</td>
+					<td><input type="email" name="reply"></td>
+					</tr>
+					
+					<tr>
+					<td><input type="submit" name="sendform" value="Send Form"></td>
+					</tr>
+				</table>
+				</form>
+			</p>
+		</div>
+	</div>
+	
+	<div id="footer">
+		<small>Copyright and all that stuff</small>
+	</div>
+</body>
+
+</html>

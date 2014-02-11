@@ -1,0 +1,126 @@
+PROGRAM employeerecords
+
+FUNCTION core
+createfile()
+IF createfile returned 1
+	PRINT employees.dat was created
+ELSE
+	PRINT employees.dat was found
+ENDIF
+
+WHILE exit=0
+	PRINT	Please select an operation from 1 to 5:
+			1. Add Employee
+			2. Delete Employee
+			3. List Employees
+			4. Compact Records
+			5. Exit
+	READ decision
+	
+	IF decision=1
+		add()
+	ELSE IF decision=2
+		delete()
+	ELSE IF decision=3
+		list()
+	ELSE IF decision=4
+		compact()
+	ELSE IF decision=5
+		exit=1
+	ELSE
+		PRINT Invalid Input
+	ENDIF
+ENDWHILE
+END core
+
+
+FUNCTION add
+PRINT Enter employee number
+READ employeenumber
+
+FOR i=0 TO i=numberofrecords
+	IF employeenumber=records[i].number
+		found=1
+		PRINT This number already exists. Overwrite the record?
+		READ answer
+	ENDIF
+ENDFOR
+
+IF found=0 OR found=1 AND answer=y
+	PRINT Enter first name
+	READ firstname
+	PRINT Enter surname
+	READ surname
+	PRINT Enter address
+	READ address
+	PRINT Enter department code
+	READ departmentcode
+	PRINT Enter duration
+	READ duration
+	
+	write to file
+	
+	update(1, 0)
+ENDIF
+END add
+
+
+FUNCTION delete
+PRINT Enter employee number
+READ employeenumber
+
+FOR i=0 TO i=numberofrecords
+	IF employeenumber=records[i].number
+		found=1
+		employeenumber[0]='*'
+		write to file
+		update(0, 1)
+	ENDIF
+ENDFOR
+
+IF found=0
+	PRINT Number does not exist in file
+ENDIF
+END delete
+
+FUNCTION list
+IF numberofrecords=0
+	PRINT No records were found in the file
+ELSE
+	FOR i=0 TO i=numberofrecords
+		read record i from file
+		IF employeenumber[0]!='*'
+			PRINT employeenumber
+			PRINT firstname
+			PRINT surname
+			PRINT address
+			PRINT departmentcode
+			PRINT duration
+		ENDIF
+	ENDFOR
+ENDIF
+
+read header record from file
+
+IF totarecords>0
+	activeemployees=totalemployees-deletedemployees
+	PRINT Active employees:
+	PRINT activeemployees
+	PRINT Total records:
+	PRINT totalrecords
+	PRINT Records marked for deletion:
+	PRINT deletedrecords
+ENDIF
+END list
+
+
+FUNCTION compact
+
+END compact
+
+
+FUNCTION update(added, marked)
+totalrecords=totalrecords+added-marked
+deletedrecords=deletedrecords+marked
+write to file
+END update

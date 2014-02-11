@@ -1,0 +1,5 @@
+U:\OOP\lab6\shapes\shapes\obj\x86\Debug\ResolveAssemblyReference.cache
+U:\OOP\lab6\shapes\shapes\bin\Debug\shapes.exe
+U:\OOP\lab6\shapes\shapes\bin\Debug\shapes.pdb
+U:\OOP\lab6\shapes\shapes\obj\x86\Debug\shapes.exe
+U:\OOP\lab6\shapes\shapes\obj\x86\Debug\shapes.pdb

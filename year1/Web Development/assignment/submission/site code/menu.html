@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Coffee Café - Our Menu</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<style type="text/css">
+	</style>
+	
+	<script>
+		function showmenu()
+		{
+			menuwindow=window.open('fullmenu.html','','width=512px,height=256px');
+			menuwindow.focus();
+		}
+	</script>
+</head>
+
+<body>
+	<h1>
+		<img src="cuptight.png" style="width:8%;"><br/>
+		Coffee Café
+	</h1>
+	
+	<table id="navigation">
+	<tbody>
+	<tr>
+		<td><a href="home.html" id="top">Home</a></td>
+		<td><a href="menu.html" id="top">Our Menu</a></td>
+		<td><a href="bookings.html" id="top">Bookings</a></td>
+		<td><a href="contact.html" id="top">Contact Us</a></td>
+	</tr>
+	</table>
+	
+	<div style="left:10%">
+		<div id="side">
+				<small>
+					Coffee Café<br/>
+					123 Knottreel Road<br/>
+					Ballsbridge<br/>
+					Co. Dublin
+				</small>
+		</div>
+		
+		<div id="content">
+			<p>
+				<h2>Our Menu</h2>
+				At Coffee Café, we pride ourselves in the quality of our coffee. Our coffee beans are sourced exclusively from suppliers accreditted by Fairtrade and the Rainforest Alliance. They are selected, ground and blended onsite to ensure consistent premium quality.<br/><br/>
+				We serve a wide range of coffees, from espresso to latte and we are happy to take requests for special blends. To view our full menu, please click the button below.<br/><br/>
+				<input type="button" onclick="showmenu()" value="Display Menu" />
+			</p>
+		</div>
+	</div>
+	
+	<div id="footer">
+		<small>Site created by Brian Willis - C12331591</small>
+	</div>
+</body>
+
+</html>

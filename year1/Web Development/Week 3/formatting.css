@@ -1,0 +1,19 @@
+body
+{
+	background-color:purple;
+	background-image:background.png;
+	border-style:solid;
+	border-color:darkblue;
+}
+p
+{
+	color:white;
+	font-weight:bold;
+	font-family:Helvetica;
+	text-indent:60px;
+	letter-spacing:3px;
+}
+table
+{
+	table-layout:fixed;
+	border-collapse:collapse;

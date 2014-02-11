@@ -1,0 +1,94 @@
+div
+{
+	border: 1px solid;
+	border-color:red;
+	border-radius:5px;
+}
+
+div#bg1
+{
+	height:48px;
+	background:url(bluecircle.png);
+	background-repeat:no-repeat;
+}
+
+div#bg2
+{
+	height:48px;
+	background:url(redcircle.png);
+}
+
+@font-face
+{
+font-family:alternative;
+src:url(sansation_light.woff);
+}
+
+@keyframes myfirst
+{
+	from {background: red;}
+	to {background: blue;}
+	}
+
+	@-moz-keyframes myfirst /* Firefox */
+	{
+	from {background: red;}
+	to {background: blue;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+	from {background: red;}
+	to {background: blue;}
+	}
+
+	@-o-keyframes myfirst /* Opera */
+	{
+	from {background: red;}
+	to {background: blue;}
+} 
+
+p
+{
+	font-weight:bold;
+}
+
+p#variant1
+{
+	border: 5px solid;
+	border-color:blue;
+	border-radius:10px;
+}
+
+p#variant2
+{
+	border:inherit;
+	border-radius:inherit;
+	border-color:inherit;
+}
+
+p#shadow
+{
+	text-shadow:3px 3px 3px gray;
+}
+
+p#small
+{
+	border:1px solid;
+	width:4%;
+	word-wrap:break-word;
+}
+
+p#alt
+{
+	font-family:alternative;
+}
+
+p#anim
+{
+	color:white;
+	animation: myfirst 5s;
+	-moz-animation: myfirst 5s; /* Firefox */
+	-webkit-animation: myfirst 5s; /* Safari and Chrome */
+	-o-animation: myfirst 5s; /* Opera */
+}

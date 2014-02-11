@@ -1,0 +1,8 @@
+#Mon Sep 23 15:52:46 BST 2013
+remoteHelpPath=/infocenter/rsahelp/v8,/help
+remoteHelpPreferred=true
+eclipse.preferences.version=1
+remoteHelpPort=80,63650
+remoteHelpName=Rational Software Architect,Local
+remoteHelpICEnabled=false,true
+remoteHelpHost=publib.boulder.ibm.com,127.0.0.1

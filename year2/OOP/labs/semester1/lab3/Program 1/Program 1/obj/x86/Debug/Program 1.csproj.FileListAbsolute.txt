@@ -1,0 +1,5 @@
+u:\OOP\lab3\Program 1\Program 1\obj\x86\Debug\ResolveAssemblyReference.cache
+u:\OOP\lab3\Program 1\Program 1\bin\Debug\Program 1.exe
+u:\OOP\lab3\Program 1\Program 1\bin\Debug\Program 1.pdb
+u:\OOP\lab3\Program 1\Program 1\obj\x86\Debug\Program 1.exe
+u:\OOP\lab3\Program 1\Program 1\obj\x86\Debug\Program 1.pdb

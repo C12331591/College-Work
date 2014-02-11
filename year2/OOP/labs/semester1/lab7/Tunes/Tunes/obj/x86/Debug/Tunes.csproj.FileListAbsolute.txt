@@ -1,0 +1,5 @@
+U:\OOP\lab7\Tunes\Tunes\bin\Debug\Tunes.exe
+U:\OOP\lab7\Tunes\Tunes\bin\Debug\Tunes.pdb
+U:\OOP\lab7\Tunes\Tunes\obj\x86\Debug\ResolveAssemblyReference.cache
+U:\OOP\lab7\Tunes\Tunes\obj\x86\Debug\Tunes.exe
+U:\OOP\lab7\Tunes\Tunes\obj\x86\Debug\Tunes.pdb

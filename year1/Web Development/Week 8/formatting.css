@@ -1,0 +1,55 @@
+body
+{
+	background-color:skyblue;
+	border-style:solid;
+	border-color:darkblue;
+	border-radius:15px;
+	font-family:Helvetica;
+	color:white;
+}
+p
+{
+	font-weight:bold;
+	text-indent:60px;
+	letter-spacing:3px;
+	text-shadow:3px 3px 3px gray;
+}
+table
+{
+	table-layout:fixed;
+	border-collapse:collapse;
+	border-color:white;
+}
+a
+{
+	color:white;
+}
+
+h1#bg
+{
+	background:url(blackandbluething.png);
+}
+
+@keyframes fadein
+{
+	from {background: darkblue;}
+	to {background: purple;}
+	}
+
+	@-moz-keyframes fadein /* Firefox */
+	{
+	from {background: darkblue;}
+	to {background: purple;}
+	}
+
+	@-webkit-keyframes fadein /* Safari and Chrome */
+	{
+	from {background: darkblue;}
+	to {background: purple;}
+	}
+
+	@-o-keyframes fadein /* Opera */
+	{
+	from {background: darkblue;}
+	to {background: purple;}
+} 

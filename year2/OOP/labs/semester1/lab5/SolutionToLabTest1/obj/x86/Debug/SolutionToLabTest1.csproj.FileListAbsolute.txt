@@ -1,0 +1,5 @@
+U:\OOP-Labs---Example-Programs\SolutionToLabTest1\bin\Debug\Expenses.exe
+U:\OOP-Labs---Example-Programs\SolutionToLabTest1\bin\Debug\Expenses.pdb
+U:\OOP-Labs---Example-Programs\SolutionToLabTest1\obj\x86\Debug\ResolveAssemblyReference.cache
+U:\OOP-Labs---Example-Programs\SolutionToLabTest1\obj\x86\Debug\Expenses.exe
+U:\OOP-Labs---Example-Programs\SolutionToLabTest1\obj\x86\Debug\Expenses.pdb

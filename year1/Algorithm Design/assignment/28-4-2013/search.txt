@@ -1,0 +1,24 @@
+i=mid
+IF A[mid].firstname>searchfirstname
+	WHILE A[i-1]>=searchfirstname
+		i=i-1
+	ENDWHILE
+ELSE IF A[mid].firstname<searchfirstname
+	WHILE A[i]<searchfirstname
+		i=i+1
+	ENDWHILE
+ELSE IF A[mid].firstname=searchfirstname
+	WHILE A[i-1]=searchfirstname
+		i=i-1
+	ENDWHILE
+ENDIF
+WHILE A[i].firstname=searchfirstname
+	PRINT A[i].studentnumber
+	PRINT A[i].firstname
+	PRINT A[i].surname
+	PRINT A[i].college
+	IF A[i+1].firstname=searchfirstname AND A[i].college<>A[i+1].college
+		PRINT Warning: Potential duplicate student records
+	ENDIF
+	i=i+1
+ENDWHILE

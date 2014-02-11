@@ -1,0 +1,24 @@
+body
+{
+	background-color:skyblue;
+	border-style:solid;
+	border-color:darkblue;
+	font-family:Helvetica;
+	color:white;
+}
+p
+{
+	font-weight:bold;
+	text-indent:60px;
+	letter-spacing:3px;
+}
+table
+{
+	table-layout:fixed;
+	border-collapse:collapse;
+	border-color:white;
+}
+a
+{
+	color:white;
+}

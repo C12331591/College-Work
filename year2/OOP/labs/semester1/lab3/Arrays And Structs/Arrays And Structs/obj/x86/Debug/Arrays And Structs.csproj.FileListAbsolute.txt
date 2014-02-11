@@ -1,0 +1,5 @@
+U:\OOP\lab3\Arrays And Structs\Arrays And Structs\bin\Debug\Arrays And Structs.exe
+U:\OOP\lab3\Arrays And Structs\Arrays And Structs\bin\Debug\Arrays And Structs.pdb
+U:\OOP\lab3\Arrays And Structs\Arrays And Structs\obj\x86\Debug\ResolveAssemblyReference.cache
+U:\OOP\lab3\Arrays And Structs\Arrays And Structs\obj\x86\Debug\Arrays And Structs.exe
+U:\OOP\lab3\Arrays And Structs\Arrays And Structs\obj\x86\Debug\Arrays And Structs.pdb

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Create a New Account</title>
+	<link rel="stylesheet" href="appearance.css" type="text/css" />
+	<style type="text/css">
+	</style>
+</head>
+
+<body>
+	<h1>Create a New Account</h1>
+	
+	<div>
+		<h2 style="background-color:#003366;">ACCOUNT</h2>
+		<p>
+			First Name:
+			<input type="text" name="firstname" autofocus><br/>
+			Last Name:
+			<input type="text" name="lastname"><br/>
+			Email:
+			<input type="email" name="email"><br/>
+			Password:
+			<input type="password" name="password"><br/>
+			Re-enter Password:
+			<input type="password" name="reenter"><br/>
+		</p>
+	</div>
+	
+	<div>
+		<h2 style="background-color:#0066ff;">ADDRESS</h2>
+		<p>
+			Street Address:
+			<input type="text" name="address"><br/>
+			City:
+			<input type="text" name="city"><br/>
+			County:
+			<select name="county" value="dublin">
+				<option value="cork">Cork</option>
+				<option value="dublin">Dublin</option>
+				<option value="wicklow">Wicklow</option>
+				<option value="kilkenny">Kilkenny</option>
+			</select><br/>
+			Post Code:
+			<input type="number" name="postcode">
+		</p>
+	</div>
+	
+	<div>
+		<h2 style="background-color:#339999;">PUBLIC PROFILE</h2>
+		<p>
+			Screen Name:
+			<input type="text" name="screenname"><br/>
+			Web:
+			<input type="text" name="web"><br/>
+			Bio:
+			<textarea rows="8" cols="50" value=""></textarea><br/>
+			Gender:
+			<dl>
+				<dt><input type="radio" name="gender" value="m">Male</dt>
+				<dt><input type="radio" name="gender" value="f">Female</dt>
+			</dl>
+		</p>
+	</div>
+	
+	<div>
+		<h2 style="background-color:#808080;">EMAILS</h2>
+		<p>
+			<input type="checkbox" name="emails" value="messages">It is okay to email me with messages from other users.<br/>
+			<input type="checkbox" name="emails" value="promotion">It is okay to email with occasional promotions about our other products.
+		</p>
+	</div>
+	
+	<div>
+		<fieldset>
+			<label for "referral">Where did you find out about us</label>
+			<select id="referal" name="referral">
+			<optgroup label="Online">
+				<option value="social_network">Social Network</option>
+				<option value="search_engine">Search Engine</option>
+			</optgroup>
+			<optgroup label="Offline">
+				<option value="postcard">Postcard</option>
+				<option value="word_of_mouth">A person</option>
+			</optgroup>
+		</fieldset>
+		<input type="submit" name="createaccount" value="Create Account">
+	</div>
+</body>
+
+</html>

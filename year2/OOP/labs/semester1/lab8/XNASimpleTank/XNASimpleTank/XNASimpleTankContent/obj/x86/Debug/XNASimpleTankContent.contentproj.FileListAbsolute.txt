@@ -1,0 +1,2 @@
+C:\Users\Bryan\Documents\Courses\OOP\XNASimpleTank\XNASimpleTank\XNASimpleTankContent\obj\x86\Debug\XNASimpleTankContent.contentprojResolveAssemblyReference.cache
+U:\OOP\lab8\XNASimpleTank\XNASimpleTank\XNASimpleTankContent\obj\x86\Debug\ResolveAssemblyReference.cache
