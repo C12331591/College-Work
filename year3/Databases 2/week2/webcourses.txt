@@ -1,0 +1,25 @@
+COURSE
+code PK
+name
+module codes FK
+
+MODULE
+code PK
+name
+content
+
+STUDENT
+id PK
+name
+course FK
+year
+
+SCORE
+id PK
+score
+student FK
+module FK
+
+4. Currently, the course content does not have a formalised method of presentation. An improvement might be to treat a piece of content as an entity, with more control over its structure.
+
+5. join course and modules and modules with score, then join all of that with student to get student's scores.

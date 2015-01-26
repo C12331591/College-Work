@@ -1,0 +1,1 @@
+java -classpath c:\jess71p2\lib\jess.jar\ jess.Main

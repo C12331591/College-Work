@@ -1,3 +1,0 @@
-#Mon Sep 23 15:52:56 BST 2013
-runtimes=<?xml version\="1.0" encoding\="UTF-8"?><runtimes>\r\n  <runtime id\="AJAX Test Server Runtime" id-set\="true" name\="AJAX Test Server Runtime" runtime-type-id\="com.ibm.etools.ajax.server.runtime" timestamp\="0"/>\r\n  <runtime alternate-names\="WebSphere Application Server v7.0" id\="was.base.v7" id-set\="true" location\="D\:/Program Files/IBM/SDP/runtimes/base_v7_stub" locked\="true" name\="WebSphere Application Server v7.0 stub" runtime-type-id\="com.ibm.ws.ast.st.runtime.v70" stub\="true" test-environment\="false" timestamp\="0"/>\r\n</runtimes>
-eclipse.preferences.version=1

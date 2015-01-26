@@ -1,0 +1,9 @@
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\assignment\30-11-2013\daniWindow\daniWindow\bin\Debug\daniWindow.exe
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\assignment\30-11-2013\daniWindow\daniWindow\bin\Debug\daniWindow.pdb
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\assignment\30-11-2013\daniWindow\daniWindow\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\assignment\30-11-2013\daniWindow\daniWindow\obj\x86\Debug\daniWindow.Form1.resources
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\assignment\30-11-2013\daniWindow\daniWindow\obj\x86\Debug\daniWindow.Properties.Resources.resources
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\assignment\30-11-2013\daniWindow\daniWindow\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\assignment\30-11-2013\daniWindow\daniWindow\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\assignment\30-11-2013\daniWindow\daniWindow\obj\x86\Debug\daniWindow.exe
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\assignment\30-11-2013\daniWindow\daniWindow\obj\x86\Debug\daniWindow.pdb

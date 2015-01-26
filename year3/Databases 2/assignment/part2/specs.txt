@@ -1,0 +1,30 @@
+Selling an Animal
+	receive animalId from input
+	search for animal by Id
+	set animalSaleDate to current date
+	decrement speciesStock
+	add speciesCost to accountAnimalSales
+	
+Restocking a Species
+	receive speciesId from input
+	receive minimum stock from input
+	search for species from Id
+	if species stock < minmum stock
+		add (speciesCost) * (minimum - species stock) to accountExpenses
+		add (minimum - species stock) to speciesStock
+	
+Displaying instruction for handling disease in an enclosure
+	receive enclosureId from input
+	search for enclosure from Id
+	if enclosure.diseaseId is not null
+		if animal table has records for enclosure.speciesId
+			foreach animal matching speciesId
+				if animalDisease is not null
+					display species diseaseTreatment.curative
+				else
+					display species diseaseTreatment.preventative
+				endif
+		else
+			display species diseaseTreatment.preventative
+		endif
+	endif

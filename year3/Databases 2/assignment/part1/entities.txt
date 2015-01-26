@@ -1,0 +1,49 @@
+ANIMAL
+animalId PK
+animalCoat
+animalHeight
+animalWeight
+animalSaleDate #For the accounts
+speciesId FK
+diseaseId FK #Indicates that it has the disease(s)
+enclosureId FK
+
+SPECIES
+speciesId PK
+speciesName
+speciesCost
+speciesRequirements
+speciesGuarantee
+accessoryId FK
+supplierId FK
+
+ENCLOSURE
+enclosureId PK
+enclosureType
+speciesId FK
+diseaseId FK
+
+DISEASE #Disease needs to be figured out
+diseaseId PK
+diseaseName
+diseaseDetectedToday
+speciesId FK
+
+DISEASE_TREATMENT
+treatmentId PK
+symptoms #Doesn't fit the "treatment" name - is there another name you could give this entity?
+treatmentCurative
+treatmentPreventative
+diseaseId FK #It's uniquely identifiable using diseaseId and speciesId together - is treatmentId necessary?
+speciesId FK
+
+ACCESSORY
+accessoryId PK
+accessoryDescription
+accessoryCost
+accessoryStock
+supplierId FK #Should this be here or should supplier reference accessories instead?
+
+SUPPLIER
+supplierId PK
+supplierName

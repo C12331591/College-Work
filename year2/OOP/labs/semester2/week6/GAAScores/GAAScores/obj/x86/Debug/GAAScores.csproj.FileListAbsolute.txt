@@ -1,0 +1,7 @@
+U:\OOP\semester2\week6\GAAScores\GAAScores\obj\x86\Debug\ResolveAssemblyReference.cache
+U:\OOP\semester2\week6\GAAScores\GAAScores\bin\Debug\GAAScores.exe
+U:\OOP\semester2\week6\GAAScores\GAAScores\bin\Debug\GAAScores.pdb
+U:\OOP\semester2\week6\GAAScores\GAAScores\obj\x86\Debug\GAAScores.exe
+U:\OOP\semester2\week6\GAAScores\GAAScores\obj\x86\Debug\GAAScores.pdb
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\semester2\week6\GAAScores\GAAScores\obj\x86\Debug\GAAScores.exe
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\semester2\week6\GAAScores\GAAScores\obj\x86\Debug\GAAScores.pdb

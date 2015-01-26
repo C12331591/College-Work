@@ -1,0 +1,7 @@
+U:\OOP\semester2\week10\SpellChecker\SpellChecker\bin\Debug\SpellChecker.exe
+U:\OOP\semester2\week10\SpellChecker\SpellChecker\bin\Debug\SpellChecker.pdb
+U:\OOP\semester2\week10\SpellChecker\SpellChecker\obj\x86\Debug\ResolveAssemblyReference.cache
+U:\OOP\semester2\week10\SpellChecker\SpellChecker\obj\x86\Debug\SpellChecker.exe
+U:\OOP\semester2\week10\SpellChecker\SpellChecker\obj\x86\Debug\SpellChecker.pdb
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\semester2\week10\SpellChecker\SpellChecker\obj\x86\Debug\SpellChecker.exe
+C:\Users\Brian\Dropbox\Course Stuff\year2\OOP\semester2\week10\SpellChecker\SpellChecker\obj\x86\Debug\SpellChecker.pdb
